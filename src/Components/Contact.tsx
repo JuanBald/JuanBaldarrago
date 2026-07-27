@@ -5,7 +5,7 @@ export default function Contact() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
@@ -36,8 +36,8 @@ export default function Contact() {
         </div>
 
         <p className="text-[#D4AF37]/50 text-center max-w-md -mt-6">
-          Have a project in mind or just want to say hi? Send a message and
-          I'll get back to you soon.
+          Have a project in mind or just want to say hi? Send a message and I'll
+          get back to you soon.
         </p>
 
         {/* form card */}
@@ -137,8 +137,8 @@ export default function Contact() {
             {status === "sending"
               ? "Sending..."
               : status === "sent"
-              ? "Message Sent ✓"
-              : "Send Message"}
+                ? "Message Sent ✓"
+                : "Send Message"}
           </button>
         </div>
 

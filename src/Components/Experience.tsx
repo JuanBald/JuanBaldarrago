@@ -1,4 +1,3 @@
-import React from "react";
 import ExperienceContainer from "./ExperienceContainer";
 import { jobs } from "../Data/experience";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import type { SkillProps } from "../Types/Skills";
 
 interface SkillContainerProps {
@@ -8,7 +7,6 @@ interface SkillContainerProps {
 export default function SkillsContainer({ skills }: SkillContainerProps) {
   return (
     <div className="group relative flex flex-col items-center">
-
       {/* Tooltip */}
       <span
         className="
@@ -51,7 +49,7 @@ export default function SkillsContainer({ skills }: SkillContainerProps) {
           group-hover:-translate-y-1
         "
       >
-        <skills.icon 
+        <skills.icon
           className="
             text-3xl 
             lg:text-6xl 
@@ -62,7 +60,6 @@ export default function SkillsContainer({ skills }: SkillContainerProps) {
           "
         />
       </div>
-
     </div>
   );
 }

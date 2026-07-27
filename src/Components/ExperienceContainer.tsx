@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import type { WorkProps } from "../Types/Work";
 
 interface ExperienceContainerProps {
@@ -129,7 +129,9 @@ export default function ExperienceContainer({ job }: ExperienceContainerProps) {
                 {job.title}
               </h3>
 
-              <h3 className="font-semibold text-xs sm:text-lg">{job.position}</h3>
+              <h3 className="font-semibold text-xs sm:text-lg">
+                {job.position}
+              </h3>
 
               <h3 className="font-normal text-xs sm:text-base text-gray-300">
                 {job.duration}

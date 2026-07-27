@@ -1,4 +1,4 @@
-# Description 
+# Description
 
 A modern personal portfolio website built with React, TypeScript, and Tailwind CSS to showcase my experience, projects, skills, and background as a Computer Science student and Software Engineering Intern. The site features responsive designs, interactive components, custom animations, and a clean user interface focused on accessibility and user experience. Built to continuously evolve as I learn new technologies and grow as a software engineer.
 

@@ -127,7 +127,7 @@ const Hero = () => {
 
           <div className=" flex flex-wrap gap-4">
             <a
-              href='/Resume6:26.pdf'
+              href="/Resume6:26.pdf"
               className="rounded-md bg-[#D4AF37] px-6 py-3 font-medium text-[#0A0E17] transition-transform hover:scale-[1.03] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8B7FFF]"
             >
               View my resume

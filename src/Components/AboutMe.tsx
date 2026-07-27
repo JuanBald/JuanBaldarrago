@@ -1,4 +1,3 @@
-import React from "react";
 import ProfileImg from "../assets/MeCartoon.png";
 
 export default function AboutMe() {

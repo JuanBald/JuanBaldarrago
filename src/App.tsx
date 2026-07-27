@@ -23,12 +23,12 @@ function App() {
           </section>
 
           <section id="skills">
-          <Skills />
-        </section>
+            <Skills />
+          </section>
 
-        <section id="contact">
-          <Contact />
-        </section>
+          <section id="contact">
+            <Contact />
+          </section>
         </main>
       </div>
     </>
