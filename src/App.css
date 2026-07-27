@@ -1,0 +1,6 @@
+@import url("https://api.fontshare.com/v2/css?f[]=zodiak@800&display=swap");
+@plugin "daisyui";
+
+body {
+  font-family: "Zodiak", serif;
+}

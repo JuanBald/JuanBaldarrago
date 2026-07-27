@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.modal-box {
+  width: 50%;
+  height: fit-content;
+  max-width: none;
+  padding: 2.5rem;
+  gap: 2.5rem;
+}
